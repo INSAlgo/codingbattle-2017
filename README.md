@@ -1,10 +1,10 @@
-# Coding Battle 2017 - Shaker
+# Coding Battle 2017 — Shaker
 
 Voici les problèmes de la Coding Battle, ainsi que de la phase d'entraînement. Ceux-ci ont été imaginés et écrits par INSAlgo.
 
 Les problèmes couvraient étaient assez divers :
 
-* **Pré-Coding Battle**
+* **Coding Battle — Échauffement**
     - **A. « Dis “Papa” ! »**, qui consistait à afficher ce que le père de Ada lui demandait de dire.
     - **B. Rectangle**, qui consistait à dessiner un rectangle de dimensions données avec un caractère donné.
     - **C. Argent de poche**, qui consistait à calculer une formule comprenant le minimum, le maximum et la moyenne d'une liste.
