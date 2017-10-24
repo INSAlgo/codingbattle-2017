@@ -1,31 +1,22 @@
 #include <stdio.h>
 
-int pow3(int exp){
-	int base = 3, result = 1;
-	while (exp){
-		if (exp & 1)
-			result *= base;
-		exp >>= 1;
-		base *= base;
-	}
-	return result;
-}
-
-char fractal(int x,int y,int layer){
-	for (int i = layer - 1; i >= 0; i--){
-		int p = pow3(i);
-		if ((x / p + (y / p) * p) & 1)
-			return ' ';
-	}
-	return 'x';
-}
-
-int main(int argc,char**argv){
+int main(int argc,char**argv) {
 	int layer = getchar() - '0';
-	int size = pow3(layer);
-	for(int y = 0; y < size; y++){
-		for(int x = 0; x < size; x++)
-			putchar(fractal(x, y, layer));
+	int size = 1;
+	for (int i = 0; i < layer; i++) size *= 3;
+	for (int y = 0; y < size; y++) {
+		for (int x = 0; x < size; x++) {
+			int p3i = 1;
+			char ch = 'X';
+			for (int i = layer - 1; i >= 0; i--) {
+				if ((x / p3i + (y / p3i) * p3i) & 1) {
+					ch = ' ';
+					break;
+				}
+				p3i *= 3;
+			}
+			putchar(ch);
+		}
 		putchar('\n');
 	}
 	return 0;
