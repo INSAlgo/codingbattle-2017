@@ -2,7 +2,7 @@
 
 Voici les problèmes de la Coding Battle, ainsi que de la phase d'entraînement. Ceux-ci ont été imaginés et écrits par INSAlgo.
 
-Les problèmes couvraient étaient assez divers :
+Les problèmes couverts étaient assez divers :
 
 * **Coding Battle – Échauffement**
     - **A. « Dis “Papa” ! »**, qui consistait à afficher ce que le père de Ada lui demandait de dire.
