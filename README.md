@@ -49,5 +49,5 @@ Nous avons eu l'occasion de lire pas mal de vos soumissions, et nous avons reçu
 
 ## License
 
-Le contenu de ce dépôt est publié sous license GPL v2. Toute contribution par pull request est bien évidemment la bienvenue !
+Le contenu de ce dépôt est publié sous license GPL v3.0. Toute contribution par pull request est bien évidemment la bienvenue !
 
